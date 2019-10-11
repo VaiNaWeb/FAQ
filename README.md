@@ -4,7 +4,7 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 
 ## Tópicos:
 
-* [git](#git)
+* [GIT](#git)
 
 ## GIT
 **1. Como excluir uma branch localmente?**
