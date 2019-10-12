@@ -27,3 +27,9 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 
 **7. Como renomear um remote?**
 - git remote rename antigonome novonome
+
+**8. Como fazer um commit?**
+- git commit -m "mensagem do commit"
+
+**9. Como renomear um commit?**
+- git commit --amend
