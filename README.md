@@ -59,5 +59,5 @@ var paises = [
   'noruega'
 ]
 ```
-[!NOTE]
-Arrays iniciam em 0, então para acessar o segundo valor da lista usada no exemplo pode ser usado paises[1], que retornará "italia".
+> [!NOTE]
+> Arrays iniciam em 0, então para acessar o segundo valor da lista usada no exemplo pode ser usado paises[1], que retornará "italia".
