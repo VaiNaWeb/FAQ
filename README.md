@@ -7,11 +7,23 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 * [GIT](#git)
 
 ## GIT
-**1. Como excluir uma branch localmente?**
+**1. Como criar uma branch?**
+Resposta: git checkout -b nomedabranch
+
+**2. Como excluir uma branch localmente?**
 Resposta: git branch -D nome do branch
 
-**2. Como trocar de branch?**
+**3. Como trocar de branch?**
 Resposta: git checkout nomedabranch
 
-**3. Como adicionar um remote?**
+**4. Como renomear uma branch?**
+Resposta: git branch -m novonome
+
+**5. Como adicionar um remote?**
 Reposta: git remote add nomeParaLembrarDeQuemÉ linkDoCloneDoRemote
+
+**6. Como remover um remote?**
+Reposta: git remote rm nomedoremote
+
+**7. Como renomear um remote?**
+Reposta: git remote rename antigonome novonome
