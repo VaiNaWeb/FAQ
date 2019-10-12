@@ -45,6 +45,8 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 - Booleano: true (verdadeiro) ou false (falso);
 - Array: [];
 - Objeto: {};
+- null;
+- undefined;
 
 **3. O que são Arrays?**
 - O objeto Array do JavaScript é um objeto semelhante a listas, um tipo de estrutura de dados que armazena elementos e que podem ser identificado pelo seu índice ou uma chave.
@@ -57,3 +59,5 @@ var paises = [
   'noruega'
 ]
 ```
+[!NOTE]
+Arrays iniciam em 0, então para acessar o segundo valor da lista usada no exemplo pode ser usado paises[1], que retornará "italia".
