@@ -5,7 +5,7 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 ## Tópicos:
 
 * [GIT](#git)
-* [Javascript](#js)
+* [Javascript](#javascript)
 
 ## GIT
 **1. Como criar uma branch?**
@@ -34,6 +34,18 @@ Repositório criado para documentar dúvidas comuns úteis para quem está come�
 
 **9. Como renomear um commit?**
 - git commit --amend
+
+**10. Como ver quais alterações foram feitas antes do commit?**
+- git diff
+
+**11. Como obter o id do commit?**
+- git log
+
+**12. Como voltar a um commit específico?**
+- git reset --hard (código/número do commit)
+
+**13. Como atualizar o repositório com esse commit específico?**
+- git push nomedorepositório nomedabranch -f
 
 ## JAVASCRIPT
 **1. Qual a diferença entre uma variável declarada em Escopo Global e em Escopo Local?**
