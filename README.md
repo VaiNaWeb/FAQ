@@ -69,7 +69,7 @@ A igualdade ampla é usada quando queremos comparar apenas os valores, como por 
 var a = 1;
 var b = 1;
 
-console.log( a == b);
+console.log(a == b);
 
 Resposta: true
 ```
@@ -79,7 +79,7 @@ E a igualdade restrita é usada quando queremos comparar os valores e tipos, com
 var a = 1;
 var b = "1";
 
-console.log( a === b);
+console.log(a === b);
 
 Resposta: false
 ```
