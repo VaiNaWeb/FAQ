@@ -72,3 +72,26 @@ var paises = [
 ]
 ```
 > Arrays iniciam em 0, então para acessar o segundo valor da lista usada no exemplo pode ser usado paises[1], que retornará "italia".
+
+**4. Checando igualdade**
+- Algo que me causava dúvida era sobre como diferenciar igualdade ampla **==**, de igualdade estrita **===**.
+A igualdade ampla é usada quando queremos comparar apenas os valores, como por exemplo:
+
+```
+var a = 1;
+var b = 1;
+
+console.log(a == b);
+
+Resposta: true
+```
+E a igualdade restrita é usada quando queremos comparar os valores e tipos, como por exemplo:
+
+```
+var a = 1;
+var b = "1";
+
+console.log(a === b);
+
+Resposta: false
+```
